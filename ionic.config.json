@@ -1,0 +1,8 @@
+{
+  "name": "test-refresh-ionic-page",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
