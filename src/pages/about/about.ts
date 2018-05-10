@@ -3,20 +3,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-    selector: 'page-home',
-    templateUrl: 'home.html',
+    selector: 'page-about',
+    templateUrl: 'about.html',
 })
-export class HomePage {
+export class AboutPage {
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {
     }
 
     ionViewDidLoad() {
-        console.log('ionViewDidLoad HomePage');
+        console.log('ionViewDidLoad AboutPage');
     }
 
-    login() {
-        this.navCtrl.push('LoginPage');
+    goAddress() {
+        this.navCtrl.push('AddressPage');
     }
 
 }
