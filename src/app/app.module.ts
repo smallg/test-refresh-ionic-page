@@ -12,7 +12,12 @@ import { MyApp } from './app.component';
     ],
     imports: [
         BrowserModule,
-        IonicModule.forRoot(MyApp)
+        IonicModule.forRoot(MyApp, {
+            tabsHideOnSubPages: true,
+            mode: 'ios',
+            iconMode: 'ios',
+            locationStrategy: 'path'
+        })
     ],
     bootstrap: [IonicApp],
     entryComponents: [
